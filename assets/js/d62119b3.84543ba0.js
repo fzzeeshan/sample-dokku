@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksample_dokku_website=self.webpackChunksample_dokku_website||[]).push([[2661],{7822:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/sample-dokku/blog/tags/docusaurus","allTagsPath":"/sample-dokku/blog/tags","count":4,"unlisted":false}')}}]);
