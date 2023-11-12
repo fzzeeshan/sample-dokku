@@ -21,7 +21,8 @@ jobs:
       - name: Install dependencies
         run: |
           cd sample-dokku-website
-          npm ci
+          ls
+          npm install
 
       - name: Build and deploy
         run: |
