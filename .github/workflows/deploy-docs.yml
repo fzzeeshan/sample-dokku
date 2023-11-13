@@ -22,12 +22,16 @@ jobs:
 
       - name: Install dependencies
         run: |
+          pwd
           cd sample-dokku-website
           ls
           npm install
 
       - name: Build and deploy
         run: |
+          pwd
+          cd sample-dokku-website
+          ls
           npm run build
 
       - name: Deploy to GitHub Pages
