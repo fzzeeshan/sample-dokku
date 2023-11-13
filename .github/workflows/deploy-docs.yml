@@ -20,6 +20,13 @@ jobs:
         with:
           node-version: 18
 
+      - name: Copy Readme Files
+        run: |
+          # Copy readme files from project-repo/docs to Docusaurus docs directory
+          cp -r ../sample-dokku/docs/* ./sample-dokku/sample-dokku-website/docs/
+          cd ./sample-dokku/sample-dokku-website/docs/
+          ls
+
       - name: Install dependencies
         run: |
           pwd
